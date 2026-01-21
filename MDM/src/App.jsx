@@ -4,6 +4,7 @@ import './App.css'
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Shop from './pages/shop'
 
 // Header Component
 const Header = () => {
@@ -17,6 +18,7 @@ const Header = () => {
           <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
           <Link to='/contact'>Contact</Link>
+          <Link to='/shop'>Shop</Link>
         </nav>
       </div>
     </header>
@@ -44,6 +46,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/shop' element={<Shop />} />
         </Routes>
         <Footer />
       </div>
