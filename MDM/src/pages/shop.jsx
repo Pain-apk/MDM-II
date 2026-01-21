@@ -5,7 +5,9 @@ export default function Shop() {
         fontSize: "48px",
         fontWeight: "bold",
         textAlign: "center",
-        marginTop: "20px"
+        marginTop: "20px",
+        backgroundColor: "lightgray"
+
     }
   return (
     <div style = {Heading}><h1>Shop</h1></div>
